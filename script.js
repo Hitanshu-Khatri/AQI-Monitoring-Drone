@@ -235,7 +235,7 @@ let map;
 
             async function fetchData() {
                 // IMPORTANT: Replace with your ESP32's actual IP Address
-                const esp32_ip = "192.168.235.37"; // <-- CHANGE THIS
+                const esp32_ip = "YOUR_IP_ADDRESS_HERE"; // <-- CHANGE THIS
                 const url = `http://${esp32_ip}/data`;
 
                 try {
